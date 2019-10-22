@@ -1,0 +1,33 @@
+.Navbar {
+  background: #554478;
+  padding: 1em 2em;
+  color: white;
+}
+
+.Menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 340px;
+  height: 100%;
+}
+
+ul li {
+  width: 350px;
+}
+
+.Navbar * {
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.active {
+  background-color: blueviolet;
+}
